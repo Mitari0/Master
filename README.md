@@ -1,27 +1,14 @@
-# Student Data Analysis
+﻿# Student Data Analysis (Plain Python)
 
-This project reads a file of students and works out two things:
-
-- How many male and female students there are
-- The average grade point average (GPA) for each
-
-## The three versions
-
-Each version lives on its own branch and gives the same results:
-
-- **Plain Python:** `Student-Data-Analysis.ipynb` (branch `student-data-analysis`)
-- **numpy:** `numpy version.ipynb` (branch `numpy-version`)
-- **pandas:** `pandas version.ipynb` (branch `pandas-version`)
-
-The plain Python version needs nothing extra. The numpy and pandas versions need their library installed first; see `requirements.txt` in the branch.
+This version reads a file of students and works out how many male and female students there are, and the average grade point average (GPA) for each. It uses only plain Python, with no extra libraries.
 
 ## Before you start
 
-You need Python 3 and Jupyter Notebook (or VS Code with the Jupyter extension).
+You need Python 3 and Jupyter Notebook (or VS Code with the Jupyter extension). There is nothing else to install.
 
 ## Your data file
 
-The data is in `students-data.csv`, included in each branch. It has a header row, then one student per line. Two columns are used:
+The data is in `students-data.csv`, included in this branch. It has a header row, then one student per line. Two columns are used:
 
 - **gender**, the third column (`male` or `female`)
 - **GPA**, the fifth column
@@ -36,9 +23,8 @@ To use your own file, change `FILE_PATH` at the top of the notebook.
 
 ## How to run
 
-1. Switch to the branch for the version you want.
-2. Open its notebook.
-3. Run the cell.
+1. Open `Student-Data-Analysis.ipynb`.
+2. Run the cell.
 
 ## Example output
 
