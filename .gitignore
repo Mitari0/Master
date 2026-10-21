@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+venv/
+.venv/
+.pytest_cache/
+*.exe
+*.zip
+.DS_Store
+Thumbs.db
